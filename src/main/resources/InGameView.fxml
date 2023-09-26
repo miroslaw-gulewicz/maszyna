@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="1080.0" prefWidth="1920.0" styleClass="overlay" stylesheets="@css/appStyle.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.mg.UI.ApplicationController">
+    <GridPane AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0">
+        <children>
+            <Canvas fx:id="carouselCanvas" height="768.0" width="1228.0" GridPane.columnIndex="1" GridPane.fillHeight="true" GridPane.fillWidth="true" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+            </Canvas>
+         <GridPane GridPane.columnIndex="1" GridPane.rowIndex="2">
+             <children>
+                 <Button id="payin" onMouseClicked="#payIn" prefHeight="106.0" prefWidth="284.0" styleClass="gameButton" GridPane.columnIndex="0" />
+                 <HBox alignment="BOTTOM_CENTER" prefWidth="660.0" GridPane.columnIndex="1">
+                     <Label id="balance" alignment="CENTER" contentDisplay="CENTER" prefWidth="200.0" styleClass="gameLabel" text="Label" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin></Label>
+                     <Label id="lastWin" alignment="CENTER" contentDisplay="CENTER" prefWidth="200.0" styleClass="gameLabel" text="Label" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS">
+                     <HBox.margin>
+                        <Insets left="40.0" />
+                     </HBox.margin></Label>
+                     <Label id="stake" alignment="CENTER" contentDisplay="CENTER" prefWidth="200.0" styleClass="gameLabel" text="Label" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS">
+                     <HBox.margin>
+                        <Insets left="40.0" />
+                     </HBox.margin></Label>
+                  <GridPane.margin>
+                     <Insets />
+                  </GridPane.margin>
+                  <padding>
+                     <Insets bottom="30.0" />
+                  </padding>
+                 </HBox>
+                 <Button id="start" onMouseClicked="#spin" prefHeight="106.0" prefWidth="284.0" styleClass="gameButton" GridPane.columnIndex="2" />
+             </children>
+           <columnConstraints>
+             <ColumnConstraints hgrow="SOMETIMES" maxWidth="284.0" minWidth="10.0" prefWidth="284.0" />
+             <ColumnConstraints hgrow="SOMETIMES" maxWidth="743.6666666666666" minWidth="10.0" prefWidth="578.0" />
+             <ColumnConstraints hgrow="SOMETIMES" maxWidth="284.0" minWidth="10.0" prefWidth="284.0" />
+           </columnConstraints>
+           <rowConstraints>
+             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+           </rowConstraints>
+         </GridPane>
+        </children>
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" percentWidth="18.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" percentWidth="64.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" percentWidth="18.0" prefWidth="100.0" />
+         <ColumnConstraints />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints percentHeight="12.0" vgrow="SOMETIMES" />
+            <RowConstraints vgrow="SOMETIMES" />
+            <RowConstraints percentHeight="15.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+    </GridPane>
+
+
+</AnchorPane>

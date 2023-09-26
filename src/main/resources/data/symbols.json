@@ -1,0 +1,37 @@
+[
+  {
+    "file": "symbol_cherry.png",
+    "id": 0,
+    "multiplier" : 5
+  },
+  {
+    "file": "symbol_plum.png",
+    "id": 1,
+    "multiplier" : 10
+  },
+  {
+    "file": "symbol_orange.png",
+    "id": 2,
+    "multiplier" : 15
+  },
+  {
+    "file": "symbol_pineapple.png",
+    "id": 3,
+    "multiplier" : 20
+  },
+  {
+    "file": "symbol_strawberry.png",
+    "id": 4,
+    "multiplier" : 30
+  },
+  {
+    "file": "symbol_watermelon.png",
+    "id": 5,
+    "multiplier" : 100
+  },
+  {
+    "file": "symbol_seven.png",
+    "id": 6,
+    "multiplier" : 200
+  }
+]

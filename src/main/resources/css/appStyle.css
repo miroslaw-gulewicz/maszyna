@@ -1,0 +1,47 @@
+.overlay {
+    -fx-background-image: url('../images/background.jpg');
+     -fx-background-size: 100% 100%;
+}
+
+.gameLabel {
+   -fx-font-size: 50px;
+   -fx-text-color: #e8b529;
+   -fx-text-fill: #e8b529;
+}
+
+.gameButton {
+    -fx-background-color: none;
+}
+
+#payin {
+ -fx-background-image: url('../images/button_payin_normal.png');
+}
+
+#payin:hover {
+ -fx-background-image: url('../images/button_payin_onhover.png');
+}
+
+#payin:pressed {
+ -fx-background-image: url('../images/button_payin_onpress.png');
+}
+
+#payin:disabled {
+ -fx-background-image: url('../images/button_payin_onpress.png');
+}
+
+#start {
+ -fx-background-image: url('../images/button_start_normal.png');
+}
+
+
+#start:hover {
+ -fx-background-image: url('../images/button_start_onhover.png');
+}
+
+#start:pressed {
+ -fx-background-image: url('../images/button_start_onpress.png');
+}
+
+#start:disabled {
+ -fx-background-image: url('../images/button_start_onpress.png');
+}
