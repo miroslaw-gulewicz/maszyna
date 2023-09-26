@@ -1,6 +1,6 @@
 Simple slot machine.
 
-Put following graphics in to images folder
+Put following graphics in to resources\images folder
 
 background.jpg               1920x1080px <br/>
 button_payin_disable.png     284x106px   <br/>
